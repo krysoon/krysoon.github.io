@@ -1,0 +1,482 @@
+ /* =Global -------------------------------------------------------------- */
+ html {
+	margin:0;
+	padding:0;
+	height:100%;
+}
+body {
+	background-color:rgb(255,255,255);
+	color:rgb(5,5,5);
+	font-family:'Ubuntu',sans-serif;
+	font-weight:300;
+	font-size:18px;
+	line-height:1.5;
+	height:100%;
+ width: 100%;
+ font-family: Alice;
+}
+/* Headings */
+p, li {
+ font-size: 1.6vw;
+}
+ h1,h2,h3,h4,h5,h6 {
+	line-height:1;
+	font-weight:700;
+}
+h1 {
+	font-size:7vw;
+	padding-bottom:0.5em;
+	color:white;
+}
+h2 {
+	font-size:5vw;
+	color:white;
+	padding-bottom:0.3em;
+}
+h3 {
+	font-size:5vw;
+	padding-bottom:0.3em;
+ 
+}
+h4 {
+	font-size:3vw;
+	padding-bottom:0.3em;
+ color: white;
+}
+
+h5 {
+	font-size:2vw;
+	padding-bottom:0.3em;
+ color: white;
+}
+h6 {
+	font-size:3vw;
+	padding-bottom:0.3em;
+text-align: center;
+}
+h7{
+ font-size:2vw;
+	padding-bottom:0.3em;
+}
+img {
+	width:100%;
+}
+.Layer1 {
+	position:absolute;
+	left:0px;
+	top:0px;
+	width:100%;
+	height:100%;
+	z-index:-1;
+}
+
+.Layer3 {
+	position:absolute;
+	left:0px;
+	top:0px;
+	width:100%;
+	height:100%;
+	z-index:-1;
+}
+
+/*homepage*/
+ *:focus {
+            outline: none;
+        }
+
+
+      
+
+        #info {
+            position: absolute;
+            top: 0;
+            right: 0;
+            max-width: 300px;
+            color: #212121;
+            background-color: rgba(255, 255, 255, 0.60);
+
+            font-size: 150%;
+            padding: 10px;
+
+            display: none;
+        }
+.home-page-content-top {
+text-align: center;
+position:relative;
+margin-top:13%;
+	margin-bottom:22%;
+ 
+
+	
+}
+.home-page-content-p1 {
+position:relative;
+margin-bottom:2%; 
+margin-right: 5%;
+margin-left: 5%;
+ width: 90%;
+ padding-top: 2%;
+}
+
+.home-page-content-2{
+position:relative; 
+margin-right: 5%;
+margin-left: 5%;
+width: 90%;
+height: 20%; 
+}
+
+
+.home1 img {
+	width:100%;
+ size: landscape;
+ border-radius:50%;
+}
+.home2 li,.home3 li {
+	margin-top:0.1em;
+	margin-bottom:0.1em;
+	list-style-type:circle;
+}
+.home-page-content-p1 h3 {
+	text-align:center;
+}
+.c {
+
+
+}
+.b{
+ font-weight: 600
+}
+
+.d{
+}
+.home1,.home2,.home3 {
+	float:left;
+	width:30%;
+	position:relative;
+}
+.home1,.home2,.home3 {
+	margin-right:3%;
+}
+#yuanjun {
+	margin-right:20%;
+}
+.home-page-content-3{
+
+ height: 100px;
+ background-color: grey;
+ }
+ 
+ .hh{
+ text-align: center;
+ padding-bottom: 2%;
+ margin-bottom: 2%;
+ font-size: 3vw;
+ font-weight: 600;
+ border-bottom: dashed;
+}
+ .university{
+ margin-top: 2%;
+ width: 90%;
+ }
+/*workpage&academicpage*/
+.work-page-content-top {
+	position:relative;
+	margin-top:15%;
+	margin-bottom:18%;
+ padding-left: 5%;
+ padding-bottom: 3%;
+ padding-top: 3%;
+	background-color:rgba(51,59,66,0.3);
+}
+
+.econtent{
+width: 100%;
+padding: 2%;
+height: 27vw;
+}
+
+
+.work1 img{
+ height:24vw;
+ }
+.work1 {
+width:40%;
+float:left;
+margin-right:5%;
+margin-left: 5%;
+}
+
+.work2 {
+	width:45%;
+margin-right: 5%;
+	float:left;
+}
+.work2 li,.academic2 li {
+	list-style-type:circle;
+	line-height:2;
+}
+ 
+.eh p{
+ text-align: center;
+ padding-bottom: 2%;
+ margin-bottom: 2%;
+ font-size: 3vw;
+ font-weight: 600;
+ border-bottom: dashed;
+ margin-left: 5%;
+ margin-right: 5%;
+}
+.experiencetitle{
+ font-weight: 600;
+}
+
+/*profolio*/
+.profolio-page-content-top {
+position:relative;
+	margin-top:15%;
+	margin-bottom:15%;
+ margin-left: 5%;
+}
+.Layer2 {
+	position:fixed;
+	left:0px;
+	top:0px;
+	width:100%;
+	height:100%;
+	z-index:-1;
+}
+#pic img {
+	width:100%;
+}
+/*aboutme*/
+.aboutme-page-content-top {
+	position:relative;
+	margin-top:18%;
+	margin-bottom:22%;
+ margin-left: 5%;
+	
+}
+.aboutme1 {
+	position:relative;
+	margin-bottom:10%;
+ width: 90%;
+ margin:0 5% 10% 5%;
+ 
+}
+
+.aboutme2-content {
+	position:relative;
+ margin-left: 5%;
+ margin-right: 2%;
+	width:43%;
+	height:330px;
+	float:left;
+}
+
+.aboutme2-content-2 {
+	position:relative;
+ margin-left: 2%;
+ margin-right: 5%;
+	width:43%;
+	height:330px;
+	float:left;
+}
+.aboutme3 {
+ width: 90%;
+ margin-left: 5%;
+ margin-right: 5%;
+	float:left;
+	
+}
+
+.aboutmep
+{
+ width: 90%;
+ margin-left: 5%;
+ margin-right: 5%;
+ padding-bottom: 30%;
+}
+.aboutmepicture, .propicture {
+	width:31%;
+	float:left;
+padding: 1%;
+display: flex;
+height: 27vw;
+}
+.bott {
+	width:31%;
+	float:left;
+padding: 1%;
+display: flex;
+height: 8vw;
+}
+
+#aboutme h3 {
+	text-align:center;
+}
+.aboutme3 p {
+	margin-bottom:2%;
+}
+.aboutme2-content frame {
+	border:0;
+ 
+}
+/*contact*/
+.contact-page-content-top {
+	position:relative;
+	margin-top:18%;
+	margin-bottom:22%;
+ margin-right: 5%;
+ margin-left: 5%;
+}
+.contact-bottom {
+	width:90%;
+ margin-left: 5%;
+ margin-right: 5%;
+}
+.contact-form {
+	float:left;
+	width:50%;
+ margin-bottom: 5%;
+}
+.contact-map {
+	width:100%;
+}
+
+.contact-map frame {
+	border:0;
+}
+a {
+	text-decoration:none;
+	color:rgb(100,150,200);
+}
+a:hover {
+	color:rgb(50,50,50);
+}
+p {
+	color:rgb(50,50,50);
+	line-height:2;
+	margin-bottom:auto;
+	margin-top:auto;
+}
+/* =Template -------------------------------------------------------------- */
+
+ #wrapper {
+	width:100%;
+	min-height:100%;
+	height:100%;
+ padding-bottom:200px;
+ flex: 1;
+}
+/* =Footer -------------------------------------------------------------- */
+ .footer {
+	overflow:auto;
+	width:100%;
+	padding-top:5%;
+ bottom: 0;
+ width: 100%;
+ height: 180px;
+ margin-top: -180px;
+ background-color:rgb(204, 204, 204, 0.4);
+}
+.footer p {
+	text-align:center;
+	font-size: 1.5vw;
+}
+.footer img
+{
+ width: 3%;
+ margin:1%;
+ margin-bottom: 5%;
+}
+.content {
+	width:100%;
+max-width: 100%;
+	min-height:100%;
+	
+}
+/* =Extras -------------------------------------------------------------- */
+ .clearfix:after {
+	visibility:hidden;
+	display:block;
+	content:"";
+	clear:both;
+	height:0;
+}
+/*dropdown*/
+ nav {
+	font-size:large;
+	font-weight:500;
+	padding:10px 0;
+	margin-top:0.5em;
+ text-align: center;
+}
+nav ul {
+	list-style-type:none;
+	margin:0;
+	padding:0;
+}
+nav ul li {
+	display:inline-block;
+	position:relative;
+}
+/* sub navigation --------------------------------------------------------------*/
+ nav li ul {
+	position:absolute;
+	left:0;
+	top:40px;
+	/* make this equal to the line-height of the links (specified below) */
+     width:100%;
+}
+nav li li {
+	position:relative;
+	margin:0;
+	display:block;
+}
+nav li li ul {
+	position:absolute;
+	top:0;
+	left:200px;
+	/* make this equal to the width of the sub nav above */
+     margin:0;
+}
+/* style all links -------------------------------------------------------------*/
+ nav a {
+	line-height:40px;
+	padding:0 0.5em;
+	margin:0 0.5em;
+}
+nav a {
+	color:#fff;
+	text-decoration:none;
+	display:block;
+}
+nav a:hover,nav a:focus,nav a:active {
+	color:rgb(50,50,50);
+}
+/* style sub level links --------------------------------------------------------------*/
+ nav li li a {
+	border-bottom:solid 1px rgb(255,255,255);
+	margin:0 10px;
+	padding:0;
+}
+nav li li:last-child a {
+	border-bottom:none;
+}
+/* hide sub menu links --------------------------------------------------------------*/
+ ul.sub-menu {
+	display:none;
+}
+/* show arrows for dropdowns --------------------------------------------------------------*/
+ nav li.dropdown > a {
+	background-image:url('../img/arrow-down.png');
+	background-position:right 20px;
+	background-repeat:no-repeat;
+}
+nav li li.dropdown > a {
+	background-image:url('../img/arrow-right.png');
+	background-position:right 16px;
+	background-repeat:no-repeat;
+}
+/*-----------------------------------------------------------------------------------------------------*/
